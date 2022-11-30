@@ -1,0 +1,51 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [
+                {
+                    "actionId": "NAVIGATE_TO_FORM__adb121173f4a449581d2e8528cdac53d",
+                    "actionSequenceId": "AS_Button_gc51b21099b64667881f007b4ad28d73",
+                    "beautifiedPath": "frmLogin > btnLogin > onClick",
+                    "evt": "ide_onClick",
+                    "from": "dc8831b955204b6da7c3df6237629ecf",
+                    "isPSP": false,
+                    "points": [
+                        168,
+                        178.04526367187498,
+                        178,
+                        178.04526367187498,
+                        178,
+                        258.045263671875,
+                        178,
+                        258.045263671875,
+                        178,
+                        338.045263671875,
+                        188,
+                        338.045263671875
+                    ],
+                    "to": "dae66c85878447e481307e5cd6341124",
+                    "widgetKUID": "a39c3fa626734eb2a1c6d58ef7ca6533"
+                }
+            ],
+            "nodeDataArray": [
+                {
+                    "formKUID": "dae66c85878447e481307e5cd6341124",
+                    "formName": "frmDashboard",
+                    "isStartupForm": false,
+                    "key": "dae66c85878447e481307e5cd6341124",
+                    "loc": "188 184.845263671875",
+                    "thumbnailURL": "/assets/VoltMXSample/forms/mobile/frmDashboard.sm/.thumbs/default.jpeg"
+                },
+                {
+                    "formKUID": "dc8831b955204b6da7c3df6237629ecf",
+                    "formName": "frmLogin",
+                    "isStartupForm": true,
+                    "key": "dc8831b955204b6da7c3df6237629ecf",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

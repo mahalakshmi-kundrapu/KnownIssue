@@ -1,0 +1,11 @@
+{
+    "testCaseName": "testUsernameMandatoryVJW",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "_currentForm": "frmLogin",
+    "timeout": 0,
+    "usedBy": [
+        "LoginScreenUIValidationsSanityTestSuiteVJW.js"
+    ],
+    "userCode": true
+}

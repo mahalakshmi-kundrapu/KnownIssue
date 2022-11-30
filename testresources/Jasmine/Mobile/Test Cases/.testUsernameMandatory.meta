@@ -1,0 +1,91 @@
+{
+    "testCaseName": "testUsernameMandatory",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmLogin.btnLogin",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "6cc17ab9-7633-0045-fcc2-76823b4c5647",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmLogin.btnLogin"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmLogin.btnLogin",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "frmLogin.btnLogin",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "70917044-9eb7-4d15-8613-f08778d64d19"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Assert",
+            "actionIconClassName": "assets/widget_icons/assert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeassert.svg",
+            "entity": "frmLogin.lblErrorMsg",
+            "metaEditable": true,
+            "dispMeta": {
+                "value": "\"User name mandatory!\"",
+                "prop": "text"
+            },
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "1c3063b1-4add-7bb8-bd37-39bb9f2408c2",
+                "messageType": "Assert",
+                "messageData": {
+                    "widgetType": "Assert",
+                    "metadata": {
+                        "assertType": "toEqual",
+                        "assertOnElement": "frmLogin.lblErrorMsg",
+                        "assertValue": "\"User name mandatory!\"",
+                        "assertOnProperty": "text",
+                        "negationEnabled": false
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "_currentForm": "frmLogin",
+    "timeout": 0,
+    "usedBy": [
+        "LoginScreenUIValidationsSanityTestSuite.js"
+    ]
+}

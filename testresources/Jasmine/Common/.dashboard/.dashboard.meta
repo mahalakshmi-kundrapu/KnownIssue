@@ -1,0 +1,57 @@
+[
+    {
+        "testName": "testLoginError",
+        "result": "jasmineReport10-11-2022_12_44_28.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "10-11-2022 12:44:28",
+        "runnerType": "TestCaseRecorder",
+        "channelName": "Mobile",
+        "crashed": false
+    },
+    {
+        "testName": "testLoginError",
+        "result": "jasmineReport10-11-2022_12_44_22.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "10-11-2022 12:44:22",
+        "runnerType": "TestCaseRecorder",
+        "channelName": "Mobile",
+        "crashed": false
+    },
+    {
+        "testName": "testLoginError",
+        "result": "jasmineReport10-11-2022_12_44_17.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "10-11-2022 12:44:17",
+        "runnerType": "TestCaseRecorder",
+        "channelName": "Mobile",
+        "crashed": false
+    },
+    {
+        "testName": "testLoginError",
+        "result": "jasmineReport10-11-2022_12_43_04.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "10-11-2022 12:43:04",
+        "runnerType": "TestCaseRecorder",
+        "channelName": "Mobile",
+        "crashed": false
+    },
+    {
+        "testName": "testLoginError",
+        "result": "jasmineReport10-11-2022_12_42_27.html",
+        "passedCount": 1,
+        "failedCount": 0,
+        "pendingCount": 0,
+        "timeStamp": "10-11-2022 12:42:27",
+        "runnerType": "TestCaseRecorder",
+        "channelName": "Mobile",
+        "crashed": false
+    }
+]

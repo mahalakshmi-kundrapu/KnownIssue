@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "LoginScreenUIValidationsSanityTestSuite",
+    "testCaseInfo": [
+        "testUsernameMandatory.js",
+        "testPasswordMandatory.js"
+    ],
+    "usedBy": [
+        "VoltMXSampleAppTestPlan.js"
+    ]
+}

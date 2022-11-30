@@ -1,0 +1,147 @@
+{
+    "testCaseName": "testLoginErrorVJW",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmLogin.tbxUserName",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "97f64850-84f4-1c99-ff13-694c59a91a7e",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmLogin.tbxUserName"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "frmLogin.tbxUserName",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "frmLogin.tbxUserName",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "text": "myxhcnjv"
+                    }
+                },
+                "UUID": "3d3feee4-bb26-421e-8f05-c2f0dfde3663",
+                "_cached": true
+            },
+            "codeNotReady": false,
+            "_cached": true,
+            "dispMeta": "myxhcnjv",
+            "metaEditable": true
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "frmLogin.tbxPassword",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "frmLogin.tbxPassword",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "text": "ADDFBGRB VMCVD"
+                    }
+                },
+                "UUID": "adcb084f-37e8-4e2a-9ba3-c93b7e55a03e",
+                "_cached": true
+            },
+            "codeNotReady": false,
+            "_cached": true,
+            "dispMeta": "ADDFBGRB VMCVD",
+            "metaEditable": true
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmLogin.btnLogin",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "frmLogin.btnLogin",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "4833d7f4-5e95-4671-a73a-f8750b1970b6"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Assert",
+            "actionIconClassName": "assets/widget_icons/assert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeassert.svg",
+            "entity": "frmLogin.lblErrorMsg",
+            "metaEditable": true,
+            "dispMeta": {
+                "value": "Invalid Credentials",
+                "prop": "text"
+            },
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "debb87b4-2a4f-cb53-da9a-9569db7df809",
+                "messageType": "Assert",
+                "messageData": {
+                    "widgetType": "Assert",
+                    "metadata": {
+                        "assertType": "toEqual",
+                        "assertOnElement": "frmLogin.lblErrorMsg",
+                        "assertValue": "Invalid Credentials",
+                        "assertOnProperty": "text",
+                        "negationEnabled": false
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "_currentForm": "frmLogin",
+    "timeout": 0,
+    "usedBy": []
+}

@@ -1,0 +1,170 @@
+{
+    "testCaseName": "testLoginSuccess",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "usedBy": [],
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmLogin.tbxUserName",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "c43e4909-e4e9-9a76-0681-87d2044ae866",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmLogin.tbxUserName"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "frmLogin.tbxUserName",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "frmLogin.tbxUserName",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "text": "myuser@hcl.com"
+                    }
+                },
+                "UUID": "a80fce12-9b5b-4762-9589-396235f78342",
+                "_cached": true
+            },
+            "codeNotReady": false,
+            "_cached": true,
+            "dispMeta": "myuser@hcl.com",
+            "metaEditable": true
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "frmLogin.tbxPassword",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "frmLogin.tbxPassword",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "text": "Volt@1234"
+                    }
+                },
+                "UUID": "9521151a-1371-4f89-9d87-f730c77a6a15",
+                "_cached": true
+            },
+            "codeNotReady": false,
+            "_cached": true,
+            "dispMeta": "Volt@1234",
+            "metaEditable": true
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmLogin.btnLogin",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "frmLogin.btnLogin",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "84071af9-435c-4031-be15-87dc3f969fa0"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmDashboard.lblWelcomeMsg",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "0dc93b80-2aff-2f3d-cc0e-6b4f3ea4c130",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmDashboard.lblWelcomeMsg"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Assert",
+            "actionIconClassName": "assets/widget_icons/assert.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeassert.svg",
+            "entity": "frmDashboard.lblWelcomeMsg",
+            "metaEditable": true,
+            "dispMeta": {
+                "value": "\"Welcome\"",
+                "prop": "text"
+            },
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "UUID": "c20e7e9d-aa34-7bf4-d381-c7f2e12cad01",
+                "messageType": "Assert",
+                "messageData": {
+                    "widgetType": "Assert",
+                    "metadata": {
+                        "assertType": "toContain",
+                        "assertOnElement": "frmDashboard.lblWelcomeMsg",
+                        "assertValue": "\"Welcome\"",
+                        "assertOnProperty": "text",
+                        "negationEnabled": false
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "_currentForm": "frmLogin",
+    "timeout": 0
+}
